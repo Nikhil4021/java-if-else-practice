@@ -1,0 +1,24 @@
+package IfElseLadderProblems;
+import java.util.Scanner;
+
+public class CheckPositiveNegativeZeroNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        //declaring the scanner object
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter any number: ");
+		int number = sc.nextInt();
+		
+		if (number > 0) {
+			System.out.println("The number "+number+" is positive");
+		} else if (number < 0) {
+			System.out.println("The number "+number+" is negative");
+		} else {
+			System.out.println("The number "+number+" is zero");
+		}
+		
+		sc.close();
+	}
+
+}
